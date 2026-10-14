@@ -15,7 +15,7 @@
 | Python 檔案靜態語法 | 12／12，包含 helpers 與整理工具 |
 | 審查圖片 | 37 張完整且與 allowlist 一致 |
 | 匯入程式雜湊 | 13／13 |
-| Markdown 相對連結 | 173 個有效 |
+| Markdown 相對連結 | 175 個有效 |
 | 原 RLE、目前 NumPy 2 | 1／6，非空字串有 scalar repr 相容問題 |
 | 獨立 adapter + 原 encode／decode | 6／6 |
 

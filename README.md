@@ -1,12 +1,12 @@
 # NYCU Deep Learning in Medical Image Analysis
 
-深度學習於醫學影像分析課程作品集，整理五份作業的問題設定、資料處理、模型設計、歷史結果與限制。內容由課程提交 Notebook 與本人報告交叉整理，供面試與技術討論閱讀。
+深度學習於醫學影像分析課程專案，整理五份作業的問題設定、資料處理、模型設計、歷史結果與限制。內容由課程提交 Notebook 與本人報告交叉整理，說明各影像任務的實作流程與實驗觀察。
 
 **本專案是課程研究實作，不是臨床診斷工具。** 公開版本不包含病患影像、DICOM、個案資料表、模型權重或原始報告；Notebook 已清除全部歷史輸出與個資。結果圖只保留人工審查過的統計、學習曲線與參數／程式截圖。
 
 ## 五份作業
 
-| 作業 | 主題與方法 | 可以展示的能力 | 詳細入口 |
+| 作業 | 主題與方法 | 實作內容 | 詳細入口 |
 | --- | --- | --- | --- |
 | HW1 | 手寫數字分類：MLP、BatchNorm、Dropout | Dataset／DataLoader、訓練迴圈、過擬合分析 | [數字分類](homeworks/hw01-digits/README.md) |
 | HW2 | SPECT 三分類：VGG、ResNet、ViT、年齡／性別融合 | DICOM 切片、遷移學習、影像與表格特徵結合 | [SPECT 分類](homeworks/hw02-spect/README.md) |
@@ -14,7 +14,7 @@
 | HW4 | 超音波頸動脈分割：FCN、U-Net、RLE | 像素級監督、同步增強、Dice／IoU、遮罩輸出 | [超音波分割](homeworks/hw04-segmentation/README.md) |
 | HW5 | 胸腔 X 光偵測：COCO、Faster R-CNN、CAM | 多標籤分割資料、偵測訓練、AP 評估與可解釋性 | [X 光偵測](homeworks/hw05-detection/README.md) |
 
-每份作業包含詳細 `README.md`、程式／函式索引 `FILES.md`、公開證據索引 `RESULTS.md`。HW3 與 HW5 另有各子題說明。先看 [面試導覽](docs/INTERVIEW_GUIDE.md)，再依感興趣的主題深入。
+每份作業包含詳細 `README.md`、程式／函式索引 `FILES.md`、公開證據索引 `RESULTS.md`。HW3 與 HW5 另有各子題說明。可從 [專案概覽](docs/PROJECT_OVERVIEW.md) 了解整體流程，再依感興趣的主題閱讀。
 
 ## 結果摘要
 
@@ -34,7 +34,7 @@ HW2 的保存輸出不足以建立完整的三模型公平排行榜；不補造�
 
 ```text
 homeworks/   五份作業說明、八份清除輸出的 Notebook、已審查圖表
-docs/        面試導覽、環境、資料政策、結果分析、驗證與來源雜湊
+docs/        專案概覽、環境、資料政策、結果分析、驗證與來源雜湊
 tools/       原始資料只讀匯入、去識別整理、圖片審查與驗證工具
 ```
 

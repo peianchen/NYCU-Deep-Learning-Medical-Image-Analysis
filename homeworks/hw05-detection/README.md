@@ -78,7 +78,7 @@ Train／validation 差距顯示泛化不足的風險；objectness loss 的 valid
 
 第二份 Notebook 使用外部 [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) 的 EigenCAM 與 AblationCAM，觀察偵測特徵關注區域。這有助於除錯與展示，但熱力圖本身不是 ground truth，也不能證明模型關注的是病理原因或與醫師一致。
 
-含原 X 光的 CAM 圖未公開；面試可閱讀流程與程式，但不提供未確認再散布權的病患畫面。可解釋性分析與訓練指標分開，不將視覺效果當成增加 AP 的實驗證據。
+含原 X 光的 CAM 圖未公開；此處提供流程與程式，不提供未確認再散布權的病患畫面。可解釋性分析與訓練指標分開，不將視覺效果當成增加 AP 的實驗證據。
 
 ## 推論輸出與已知問題
 
@@ -92,4 +92,4 @@ Train／validation 差距顯示泛化不足的風險；objectness loss 的 valid
 
 準備授權課程資料，依序執行 preprocessing、training，再以同一 checkpoint 執行 explainability／推論；詳細資料契約與套件見 [ENVIRONMENT](../../docs/ENVIRONMENT.md)。偵測 helpers 放在 Notebook 同目錄；應從該目錄啟動 kernel 或明確設定 import 路徑。
 
-此作業可展示多標籤資料工程、COCO 格式、遷移學習、偵測損失、AP 評估與 XAI 整合。實際應用前仍需先修正座標與標註處理，再做外部受試者、模型校正與臨床安全性評估；本專案沒有完成這些部署條件。
+此作業串接多標籤資料處理、COCO 格式、遷移學習、偵測損失、AP 評估與 XAI。實際應用前仍需先修正座標與標註處理，再做外部受試者、模型校正與臨床安全性評估；本專案沒有完成這些部署條件。

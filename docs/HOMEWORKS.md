@@ -1,6 +1,6 @@
 # 課程與程式導覽
 
-[首頁](../README.md) · [面試閱讀](INTERVIEW_GUIDE.md)
+[首頁](../README.md) · [專案概覽](PROJECT_OVERVIEW.md)
 
 | 作業目錄 | 主要程式 | 公開結果圖 |
 | --- | --- | --- |

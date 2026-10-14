@@ -53,7 +53,7 @@ Notebook cell 的執行順序是實驗的一部分。不要抽取最後一個 `m
 
 準備有權使用的 `hwk02_data`、資料表及 DICOM，依各區段設定 `config.root`；原碼以字串相加組成部分影像路徑，須檢查 FilePath 是否自帶分隔符。依序執行前處理、指定模型訓練、載入對應 checkpoint 與 CSV 匯出。環境與下載依賴見 [ENVIRONMENT](../../docs/ENVIRONMENT.md)。
 
-適合在面試展示資料模態轉換、凍結／微調策略與特徵融合。部署前仍需整理成獨立訓練入口、統一標準化與版本、檢查 split／label mapping，並做外部評估。
+此實作結合資料模態轉換、凍結／微調策略與特徵融合。部署前仍需整理成獨立訓練入口、統一標準化與版本、檢查 split／label mapping，並做外部評估。
 
 ## 已知限制
 

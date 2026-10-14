@@ -68,4 +68,4 @@ Seed 有助於重現同環境操作，但不是所有 GPU／套件版本均得�
 - 類別比例不均，總 accuracy 應搭配 macro-F1 與每類 recall，不宜單看總分。
 - 原碼會保存含 config 物件的 checkpoint，重載與套件版本／pickle 安全性有關，只應讀取可信權重。
 
-面試時可說明為何以 validation loss 選模型、正則化的取捨，以及為何「末輪 accuracy」與「最佳 checkpoint 測試成績」不同。本次未重訓；公開曲線都是既有歷史紀錄。
+這份實驗可用來觀察 validation loss 選模、正則化的取捨，以及「末輪 accuracy」與「最佳 checkpoint 測試成績」的差異。本次未重訓；公開曲線都是既有歷史紀錄。

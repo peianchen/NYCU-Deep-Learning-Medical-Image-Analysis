@@ -13,7 +13,7 @@ def main():
     groups = defaultdict(list)
     for folder, _, filename, title in COURSE:
         groups[folder].append((filename, title))
-    overview = ["# 課程與程式導覽", "", "[首頁](../README.md) · [面試閱讀](INTERVIEW_GUIDE.md)", "", "| 作業目錄 | 主要程式 | 公開結果圖 |", "| --- | --- | --- |"]
+    overview = ["# 課程與程式導覽", "", "[首頁](../README.md) · [專案概覽](PROJECT_OVERVIEW.md)", "", "| 作業目錄 | 主要程式 | 公開結果圖 |", "| --- | --- | --- |"]
     for folder, entries in groups.items():
         root = Path("homeworks") / folder
         records = [item for item in figures if item["destination"].startswith(root.as_posix() + "/")]
