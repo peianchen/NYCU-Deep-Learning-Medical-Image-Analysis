@@ -1,0 +1,23 @@
+# Training dependencies only; not a verified reproduction lockfile.
+numpy
+pandas
+scikit-learn
+matplotlib
+plotly
+Pillow
+torch
+torchvision
+torchsummary
+timm
+pydicom
+opencv-python
+imbalanced-learn
+albumentations
+wandb
+torchprofile
+tqdm
+pycocotools
+scikit-image
+scikit-multilearn
+grad-cam
+notebook

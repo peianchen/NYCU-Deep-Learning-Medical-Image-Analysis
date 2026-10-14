@@ -1,0 +1,224 @@
+[
+  {
+    "destination": "homeworks/hw01-digits/assets/report__image01.png",
+    "caption": "原報告的十類訓練樣本數統計",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "1bf9bc9461a81fd96c48341e3b36ba64f402604a8c45f9da692291ce46fe3065"
+  },
+  {
+    "destination": "homeworks/hw01-digits/assets/digits__cell37__out01.png",
+    "caption": "手寫數字歷史 loss 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "6ba1bdfcc91c449701473bf4c09ffc39ac17b42b6e9321645ec4b35870a717d4"
+  },
+  {
+    "destination": "homeworks/hw01-digits/assets/digits__cell37__out02.png",
+    "caption": "手寫數字歷史 accuracy 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "2025ad34556544980dfbc7f0f62233359d01f717d807befd6d72cc1ac3865a46"
+  },
+  {
+    "destination": "homeworks/hw01-digits/assets/digits__cell37__out03.png",
+    "caption": "手寫數字歷史 macro-F1 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "978ab55872484bdeb67253ecdc84fcb507057319eb93ebc197f7bb7c9eb178b6"
+  },
+  {
+    "destination": "homeworks/hw01-digits/assets/digits__cell37__out04.png",
+    "caption": "手寫數字歷史 misclassification 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "f3d3e4caa1657e37af3b5aeed35c2c1dcfd5201e852aeb017e3af01296515b97"
+  },
+  {
+    "destination": "homeworks/hw02-spect/assets/report__image01.png",
+    "caption": "報告中的 ViT 參數截圖；為歷史紀錄，未重新建立模型確認",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "56b28154c0910a3d625852292b3ecab3efe35eed0442da4f2ee720c509416234"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell04__out00.png",
+    "caption": "完整訓練資料的六類分布",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "b36937b1034c8b0e86e083a9cd44a59735eb9767e09bab89143740fe41ab061b"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell09__out00.png",
+    "caption": "分割後訓練部分的六類分布",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "77eaf58a67d822bcc522b902a37e3896b010ef18dc63a364fd1c7efe792494ea"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell36__out01.png",
+    "caption": "Random Oversampling 實驗的歷史 loss 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "4bb1e2bb1a6321761e257e6dcce0a067ca0625ad8d2466f1c97e95db27405a1d"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell36__out02.png",
+    "caption": "Random Oversampling 實驗的歷史 accuracy 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "dd3c05f7663e7c62fb65c77aa2dd2128508563a633d1fc24aa9f7d5b81290564"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell36__out03.png",
+    "caption": "Random Oversampling 實驗的歷史 macro-F1 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "76e34182b03439a244d45f70f462af372af3b5001829b86ee072d3d3776152f2"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell36__out04.png",
+    "caption": "Random Oversampling 實驗的歷史 misclassification 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "e255f8f7d327f0f1750938106566162ff1917dc5d8011da0ff74a4210c764aaf"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell37__out01.png",
+    "caption": "標名 weighted-loss 的實驗（原碼未將 weight 傳入 loss）的歷史 loss 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "4c623c42a397b8478d9e0aebf76b5265a644616799b751994dedd6d50f0a1bdc"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell37__out02.png",
+    "caption": "標名 weighted-loss 的實驗（原碼未將 weight 傳入 loss）的歷史 accuracy 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "8b4a9fb6ee94c78f2af00340c8c53be7353e4a16c68a4ebffa54f4c8fbed61f4"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell37__out03.png",
+    "caption": "標名 weighted-loss 的實驗（原碼未將 weight 傳入 loss）的歷史 macro-F1 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "1b624a0d295125964b1f8b74f7a3e6fb1e9cddba948b11be96bbc68648907e8c"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/spect_imbalance__cell37__out04.png",
+    "caption": "標名 weighted-loss 的實驗（原碼未將 weight 傳入 loss）的歷史 misclassification 曲線",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "bcd9a021bb429677c940cf095ee5a82695070c9552c63f09e56ed15615d111f7"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell35__out03.png",
+    "caption": "MRI Late_fusion 歷史 loss 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "1f749a19abf8d271015bec948a6fe5fcbba90a48d119dab289b30cfbb4151233"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell35__out04.png",
+    "caption": "MRI Late_fusion 歷史 accuracy 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "d0a05796692e61e189bb7d33d370c756c494923bb493d4d1e02b8d3cebc70eea"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell35__out05.png",
+    "caption": "MRI Late_fusion 歷史 macro-F1 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "2bb06894ec7f912623a1f7ac728dc167b3ee0ba4c2e6b0ae6df3184319065176"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell46__out03.png",
+    "caption": "MRI Single_slice 歷史 loss 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "e7ee65d6eb696ec94db16f0ee71f505f27cf2b6381366f3292ee87e24b9c5638"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell46__out04.png",
+    "caption": "MRI Single_slice 歷史 accuracy 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "da507b6d918aac5e5bd30e9697190cf5b80f0a7a6e730eca6722d255c59c2412"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell46__out05.png",
+    "caption": "MRI Single_slice 歷史 macro-F1 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "81e59eed9c0837aa809494725e65e9dcd7d698c4fd34224a951cf3b9b6f18021"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell56__out03.png",
+    "caption": "MRI Early_fusion 歷史 loss 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "1f749a19abf8d271015bec948a6fe5fcbba90a48d119dab289b30cfbb4151233"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell56__out04.png",
+    "caption": "MRI Early_fusion 歷史 accuracy 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "d0a05796692e61e189bb7d33d370c756c494923bb493d4d1e02b8d3cebc70eea"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell56__out05.png",
+    "caption": "MRI Early_fusion 歷史 macro-F1 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "2bb06894ec7f912623a1f7ac728dc167b3ee0ba4c2e6b0ae6df3184319065176"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell71__out02.png",
+    "caption": "MRI 3D ResNet 歷史 loss 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "1896f583e99c2f09ce44809720fbd37fe200b3a0e2e516070b46f06a1f385065"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell71__out03.png",
+    "caption": "MRI 3D ResNet 歷史 accuracy 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "f8c531c9d5f388851ad0b280a8559a27b88b5bd50ea6cba7fb9563c56f83b57c"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/mri_fusion__cell71__out04.png",
+    "caption": "MRI 3D ResNet 歷史 macro-F1 曲線；名稱不保證架構互異",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "f2f9dda63bc3db4b5713a44974bd11511b3afa88d8fe3c267e2b59f3660f09e2"
+  },
+  {
+    "destination": "homeworks/hw03-spect-mri/assets/p2__image01.png",
+    "caption": "22,530 是凍結 backbone 時的可訓練分類頭數量，不是完整模型總量",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "17372ff8f433118fab54e99ffbad8bbcf89f0bc3d5a09355c85bcbc2a15d10fa"
+  },
+  {
+    "destination": "homeworks/hw04-segmentation/assets/report__image01.png",
+    "caption": "U-Net 歷史參數數量截圖",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "7cbdddce4cabe1035face475e759d8e3affcbe3b068ba7c874bcd7fade71bea3"
+  },
+  {
+    "destination": "homeworks/hw04-segmentation/assets/report__image02.png",
+    "caption": "超音波影像及 mask 同步增強的原程式截圖",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "0d5d084bd96d352c5fdc97f8f6b274af586399157050f49f6e39aef5e6cbf605"
+  },
+  {
+    "destination": "homeworks/hw05-detection/assets/detection_training__cell36__out61.png",
+    "caption": "Faster R-CNN 歷史 AP50 曲線；原圖 Testing 字樣實為驗證集",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "c8dcfbe7d45f7158947e11077a4ffde993a3e751f44a025fdc3e1127af5ba85a"
+  },
+  {
+    "destination": "homeworks/hw05-detection/assets/detection_training__cell36__out62.png",
+    "caption": "Faster R-CNN 歷史 total loss 曲線；原圖 Testing 字樣實為驗證集",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "1965861341f9c9fb5f8f28930492ee1421a01cf1913617c50584f4f256243443"
+  },
+  {
+    "destination": "homeworks/hw05-detection/assets/detection_training__cell36__out63.png",
+    "caption": "Faster R-CNN 歷史 classifier loss 曲線；原圖 Testing 字樣實為驗證集",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "4641df384735b790d22123221d7a473c8b1422dbdddddf7fca19a260dfd14c40"
+  },
+  {
+    "destination": "homeworks/hw05-detection/assets/detection_training__cell36__out64.png",
+    "caption": "Faster R-CNN 歷史 box regression loss 曲線；原圖 Testing 字樣實為驗證集",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "cd9f0a7179fccc2dcd9a1995156a2f4cc14351e699090bb505abee6a64aa3f87"
+  },
+  {
+    "destination": "homeworks/hw05-detection/assets/detection_training__cell36__out65.png",
+    "caption": "Faster R-CNN 歷史 RPN box loss 曲線；原圖 Testing 字樣實為驗證集",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "6f5bc2cf0978229c983104f376b7efc776dd6ef15a74b0d149171462d0defaa4"
+  },
+  {
+    "destination": "homeworks/hw05-detection/assets/detection_training__cell36__out66.png",
+    "caption": "Faster R-CNN 歷史 objectness loss 曲線；原圖 Testing 字樣實為驗證集",
+    "status": "historical_reviewed_aggregate_figure",
+    "sha256": "f8ebe6d0c279849e76843d295a2079b3bd4716e16d13192717d62d0da237c9ad"
+  }
+]

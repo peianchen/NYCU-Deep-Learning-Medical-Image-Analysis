@@ -1,0 +1,222 @@
+{
+  "checked_on": "2026-10-14",
+  "python": "3.12.12",
+  "nbformat": "5.10.4",
+  "numpy": "2.3.5",
+  "notebooks": [
+    {
+      "path": "homeworks/hw01-digits/notebooks/digits.ipynb",
+      "code_cells": 23,
+      "schema_valid": true,
+      "syntax_errors": [],
+      "outputs_removed": true
+    },
+    {
+      "path": "homeworks/hw02-spect/notebooks/spect_classification.ipynb",
+      "code_cells": 42,
+      "schema_valid": true,
+      "syntax_errors": [],
+      "outputs_removed": true
+    },
+    {
+      "path": "homeworks/hw03-spect-mri/notebooks/mri_fusion.ipynb",
+      "code_cells": 46,
+      "schema_valid": true,
+      "syntax_errors": [],
+      "outputs_removed": true
+    },
+    {
+      "path": "homeworks/hw03-spect-mri/notebooks/spect_imbalance.ipynb",
+      "code_cells": 26,
+      "schema_valid": true,
+      "syntax_errors": [],
+      "outputs_removed": true
+    },
+    {
+      "path": "homeworks/hw04-segmentation/notebooks/ultrasound_segmentation.ipynb",
+      "code_cells": 20,
+      "schema_valid": true,
+      "syntax_errors": [],
+      "outputs_removed": true
+    },
+    {
+      "path": "homeworks/hw05-detection/notebooks/detection_training.ipynb",
+      "code_cells": 27,
+      "schema_valid": true,
+      "syntax_errors": [],
+      "outputs_removed": true
+    },
+    {
+      "path": "homeworks/hw05-detection/notebooks/explainability.ipynb",
+      "code_cells": 12,
+      "schema_valid": true,
+      "syntax_errors": [],
+      "outputs_removed": true
+    },
+    {
+      "path": "homeworks/hw05-detection/notebooks/preprocessing.ipynb",
+      "code_cells": 32,
+      "schema_valid": true,
+      "syntax_errors": [],
+      "outputs_removed": true
+    }
+  ],
+  "python_files": [
+    {
+      "path": "tools/build_indexes.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "tools/course_config.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "tools/inspect_sources.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "tools/prepare_portfolio.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "tools/review_figures.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "tools/rle_compat.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "tools/verify_portfolio.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "homeworks/hw05-detection/notebooks/coco_eval.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "homeworks/hw05-detection/notebooks/coco_utils.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "homeworks/hw05-detection/notebooks/engine.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "homeworks/hw05-detection/notebooks/transforms.py",
+      "syntax_valid": true
+    },
+    {
+      "path": "homeworks/hw05-detection/notebooks/utils.py",
+      "syntax_valid": true
+    }
+  ],
+  "synthetic_tests": [
+    {
+      "name": "rle_empty",
+      "passed": true,
+      "shape": [
+        5,
+        7
+      ]
+    },
+    {
+      "name": "rle_full",
+      "passed": true,
+      "shape": [
+        5,
+        7
+      ]
+    },
+    {
+      "name": "rle_single_pixel",
+      "passed": true,
+      "shape": [
+        5,
+        7
+      ]
+    },
+    {
+      "name": "rle_rectangle",
+      "passed": true,
+      "shape": [
+        5,
+        7
+      ]
+    },
+    {
+      "name": "rle_checkerboard",
+      "passed": true,
+      "shape": [
+        5,
+        7
+      ]
+    },
+    {
+      "name": "rle_seeded_random",
+      "passed": true,
+      "shape": [
+        13,
+        17
+      ]
+    }
+  ],
+  "synthetic_test_scope": "original encode/decode with optional tools/rle_compat.py string adapter",
+  "legacy_rle_tests": [
+    {
+      "name": "empty",
+      "passed": true
+    },
+    {
+      "name": "full",
+      "passed": false,
+      "error": "invalid literal for int() with base 10: 'np.int64(1)'"
+    },
+    {
+      "name": "single_pixel",
+      "passed": false,
+      "error": "invalid literal for int() with base 10: 'np.int64(18)'"
+    },
+    {
+      "name": "rectangle",
+      "passed": false,
+      "error": "invalid literal for int() with base 10: 'np.int64(12)'"
+    },
+    {
+      "name": "checkerboard",
+      "passed": false,
+      "error": "invalid literal for int() with base 10: 'np.int64(2)'"
+    },
+    {
+      "name": "seeded_random",
+      "passed": false,
+      "error": "invalid literal for int() with base 10: 'np.int64(1)'"
+    }
+  ],
+  "static_observations": [
+    {
+      "name": "MLP_parameter_arithmetic_not_torch_execution",
+      "passed": true,
+      "parameters": 1452810
+    },
+    {
+      "name": "MRI_fusion_architecture_comparison",
+      "observation": "normalized class AST identical",
+      "normalized_ast_identical": true
+    }
+  ],
+  "summary": {
+    "notebooks": 8,
+    "code_cells": 228,
+    "python_files": 12,
+    "approved_figures": 37,
+    "local_links": 173,
+    "source_files_hashed": 13,
+    "compat_rle_passed": 6,
+    "legacy_rle_passed": 1,
+    "rle_cases": 6,
+    "training_rerun": false,
+    "integrity_errors": 0
+  },
+  "errors": []
+}

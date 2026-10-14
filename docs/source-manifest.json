@@ -1,0 +1,169 @@
+[
+  {
+    "source_role": "手寫數字分類",
+    "source_alias": "hw01-digits/submitted/digits.ipynb",
+    "source_sha256": "b6b71a3003c19aeeba840141ece398546466bb64ed6053a7e67a7001caae8ba2",
+    "destination": "homeworks/hw01-digits/notebooks/digits.ipynb",
+    "published_sha256": "151185ea027f704508a5f6cc60687d185341dbe6268c94db6fe8bed51de85d68",
+    "changes": [
+      "cleared outputs/counts/metadata/attachments",
+      "removed non-heading markdown",
+      "replaced student identifier and selected subject literal",
+      "disabled notebook shell/magic setup lines",
+      "placeholder W&B entity"
+    ]
+  },
+  {
+    "source_role": "SPECT 三分類",
+    "source_alias": "hw02-spect/submitted/spect_classification.ipynb",
+    "source_sha256": "2e7ef0ae3bf4c14f3e0f244e6a8ec7d613406a34bf262b8821f2e757b21a57fe",
+    "destination": "homeworks/hw02-spect/notebooks/spect_classification.ipynb",
+    "published_sha256": "00598d595ceaef69af28a52ba7e80b812698d9551c44f75bdac7244638f119c2",
+    "changes": [
+      "cleared outputs/counts/metadata/attachments",
+      "removed non-heading markdown",
+      "replaced student identifier and selected subject literal",
+      "disabled notebook shell/magic setup lines",
+      "placeholder W&B entity"
+    ]
+  },
+  {
+    "source_role": "SPECT 六分類與資料不平衡",
+    "source_alias": "hw03-spect-mri/submitted/spect_imbalance.ipynb",
+    "source_sha256": "1464a2dfd45e406c2e191e320caa91995bde401ef72b22cbf7b90d6c1bd7c65e",
+    "destination": "homeworks/hw03-spect-mri/notebooks/spect_imbalance.ipynb",
+    "published_sha256": "d7517e740e68a5ab1e12c770d4e325b48f9519d1d00bcd64153b28c855474e25",
+    "changes": [
+      "cleared outputs/counts/metadata/attachments",
+      "removed non-heading markdown",
+      "replaced student identifier and selected subject literal",
+      "disabled notebook shell/magic setup lines",
+      "placeholder W&B entity"
+    ]
+  },
+  {
+    "source_role": "MRI 切片融合與 3D CNN",
+    "source_alias": "hw03-spect-mri/submitted/mri_fusion.ipynb",
+    "source_sha256": "2a105ba9ced2a6ccb6f98c8470c2e2b9b6a608dba5ebd3cc71715c551ebded8e",
+    "destination": "homeworks/hw03-spect-mri/notebooks/mri_fusion.ipynb",
+    "published_sha256": "13cb76359dc53da2a7a94b621a234a9488958a41e42cc3e82439020239c605b1",
+    "changes": [
+      "cleared outputs/counts/metadata/attachments",
+      "removed non-heading markdown",
+      "replaced student identifier and selected subject literal",
+      "disabled notebook shell/magic setup lines",
+      "placeholder W&B entity"
+    ]
+  },
+  {
+    "source_role": "超音波頸動脈分割",
+    "source_alias": "hw04-segmentation/submitted/ultrasound_segmentation.ipynb",
+    "source_sha256": "518403903183d1eac7bb74bf062a7f116ca5822b44d5409f3b1adb0f63569788",
+    "destination": "homeworks/hw04-segmentation/notebooks/ultrasound_segmentation.ipynb",
+    "published_sha256": "3d297132031c0d8e6edd7961fd3377a2295fd39da93ba5730f715bf2b14e137a",
+    "changes": [
+      "cleared outputs/counts/metadata/attachments",
+      "removed non-heading markdown",
+      "replaced student identifier and selected subject literal",
+      "disabled notebook shell/magic setup lines",
+      "placeholder W&B entity"
+    ]
+  },
+  {
+    "source_role": "X 光前處理與 COCO 格式",
+    "source_alias": "hw05-detection/submitted/preprocessing.ipynb",
+    "source_sha256": "d93791b113994f62a22302b7fa2abe7c31755382f1c2cda4c4a407ee67312bf1",
+    "destination": "homeworks/hw05-detection/notebooks/preprocessing.ipynb",
+    "published_sha256": "21637154a4539ccdb61e22711e47847284f86f6b6cb904d285130516e9a032c3",
+    "changes": [
+      "cleared outputs/counts/metadata/attachments",
+      "removed non-heading markdown",
+      "replaced student identifier and selected subject literal",
+      "disabled notebook shell/magic setup lines",
+      "placeholder W&B entity"
+    ]
+  },
+  {
+    "source_role": "EigenCAM 與 AblationCAM",
+    "source_alias": "hw05-detection/submitted/explainability.ipynb",
+    "source_sha256": "5a2aa63ec32fc242eb26ebebbd3c0d173499494768c910c32e54fe05c505eca8",
+    "destination": "homeworks/hw05-detection/notebooks/explainability.ipynb",
+    "published_sha256": "beb1be0f8985d5f197281398cfc22692ba7d2a8876c47f4452adcb825fe45149",
+    "changes": [
+      "cleared outputs/counts/metadata/attachments",
+      "removed non-heading markdown",
+      "replaced student identifier and selected subject literal",
+      "disabled notebook shell/magic setup lines",
+      "placeholder W&B entity"
+    ]
+  },
+  {
+    "source_role": "Faster R-CNN 訓練與推論",
+    "source_alias": "hw05-detection/submitted/detection_training.ipynb",
+    "source_sha256": "eef34cdb3a3f6311699aff722dcb8d550cd56159b0f0e78689046b1d15f02b8a",
+    "destination": "homeworks/hw05-detection/notebooks/detection_training.ipynb",
+    "published_sha256": "f0df1b50cd95197c60c14fd6b942e547f023c59196032586770e684159619c4e",
+    "changes": [
+      "cleared outputs/counts/metadata/attachments",
+      "removed non-heading markdown",
+      "replaced student identifier and selected subject literal",
+      "disabled notebook shell/magic setup lines",
+      "placeholder W&B entity"
+    ]
+  },
+  {
+    "source_role": "course-provided torchvision detection helper",
+    "source_alias": "hw5/engine.py",
+    "source_sha256": "7c6ef1dcfa83c76f20176b27534a6a669dd3aaee3f15bfa05f34f55235ce5ffc",
+    "destination": "homeworks/hw05-detection/notebooks/engine.py",
+    "published_sha256": "8ce3654e6e715349f2120984b363ed5a9835dc192280c5f14c1ac788a90e27bc",
+    "changes": [
+      "UTF-8/LF",
+      "explicit third-party attribution header"
+    ]
+  },
+  {
+    "source_role": "course-provided torchvision detection helper",
+    "source_alias": "hw5/utils.py",
+    "source_sha256": "c35f51f21ac50e3796b40314dad66fe48ba04b37b2cc748318daca5332034230",
+    "destination": "homeworks/hw05-detection/notebooks/utils.py",
+    "published_sha256": "3123856bff2b73b605dce0077cc573fdf9aaae29461845902a1e146be177305e",
+    "changes": [
+      "UTF-8/LF",
+      "explicit third-party attribution header"
+    ]
+  },
+  {
+    "source_role": "course-provided torchvision detection helper",
+    "source_alias": "hw5/coco_utils.py",
+    "source_sha256": "aa5745e3cb67d4a4becb84a5094130cfa90a6856c52960aaf5c10b620078794e",
+    "destination": "homeworks/hw05-detection/notebooks/coco_utils.py",
+    "published_sha256": "57d7751de8b672725767c0d3dae378581a8d0f999c00954250efb9797c31ca96",
+    "changes": [
+      "UTF-8/LF",
+      "explicit third-party attribution header"
+    ]
+  },
+  {
+    "source_role": "course-provided torchvision detection helper",
+    "source_alias": "hw5/coco_eval.py",
+    "source_sha256": "6c1abf889b110a34283f50672aebed9355b23d161792c45d8ea43b3595fc632a",
+    "destination": "homeworks/hw05-detection/notebooks/coco_eval.py",
+    "published_sha256": "9c948721468461f715dae060752318961de181e883db80d603b5c34493a3f274",
+    "changes": [
+      "UTF-8/LF",
+      "explicit third-party attribution header"
+    ]
+  },
+  {
+    "source_role": "course-provided torchvision detection helper",
+    "source_alias": "hw5/transforms.py",
+    "source_sha256": "1b34ca3666ced1d28400b3a9ac2035543413c96501466d9e22c036425658a18c",
+    "destination": "homeworks/hw05-detection/notebooks/transforms.py",
+    "published_sha256": "4fc11e357fcc75e7628fd5dca74f4feb31b983a94a5575fcecac346d29dda715",
+    "changes": [
+      "UTF-8/LF",
+      "explicit third-party attribution header"
+    ]
+  }
+]
